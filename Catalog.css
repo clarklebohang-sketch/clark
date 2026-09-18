@@ -1,0 +1,65 @@
+body{
+  background-color:rgb(244, 247, 250);
+  font-family: arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+
+}
+.order-button{
+  color: white;
+  background-color: rgb(25, 145, 193);
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 9px;
+  width: 250px;
+  border-color: white;
+  border-style: solid;
+  transition: background-color 0.5s, color 0.5s;
+}
+.order-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(25, 145, 193);
+  border-color: rgb(25, 145, 193);
+  transform: scale(1.05);
+}
+ .order-button:active{
+  box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.3);
+ }
+ .home-button{
+   color: white;
+  background-color: rgb(25, 145, 193);
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 9px;
+  width: 250px;
+  border-color: white;
+  border-style: solid;
+ }
+ .home-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(25, 145, 193);
+  border-color: rgb(25, 145, 193);
+  transform: scale(1.05);
+ }
+ .home-button:active{
+  box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+ }
+ .h1{
+  color: rgb(25, 145, 193);
+  font-size: 3rem;
+  margin-top: 40px;
+ }
+ .h2{
+  margin-top: 40px;
+  color: rgb(25, 145, 193);
+font-size: 30px;
+ }

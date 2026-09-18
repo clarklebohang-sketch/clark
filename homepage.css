@@ -1,0 +1,73 @@
+body{
+font-family: arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background-color: rgb(244, 247, 250);
+color: #333;
+
+}
+
+.h1{
+  color: rgb( 25, 145, 193);
+  font-size: 3rem;
+  margin-top: 40px;
+}
+ .h2{
+color: rgb(12, 19, 22);
+margin-top: 40px;
+ }
+.logo{
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+p{
+  max-width:900px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.catalog-button{
+  color: white;
+  background-color: rgb(25, 145, 193);
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 9px;
+  width: 250px;
+  border-color: white;
+  border-style: solid;
+  transition: background-color 0.5s, color 0.5s;
+  
+}
+.catalog-button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(25, 145, 193);
+  border-color: rgb(25, 145, 193);
+  transform: scale(1.05);
+}
+.catalog-button:active{
+  box-shadow: 3px 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+section{
+  background: white;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: o 4px 15px rgba(0, 0, 0, 0.1) 
+
+}
+.sleg{
+  font-size: 20px;
+  font-family: tahoma;
+  font-weight: bold;
+
+
+}
